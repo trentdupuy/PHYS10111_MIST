@@ -416,9 +416,7 @@ class EEPCMD:
                         ax.plot(x1[p_ind]-x2[p_ind], y[p_ind], linewidth=4.0, alpha=0.5)
                     else:
                         ax.plot(x1[p_ind]-x2[p_ind], y[p_ind], color=phasecolor[i_p], linewidth=4.0, alpha=0.5)
-
         
-from __future__ import print_function
 import numpy as np
 import matplotlib.pyplot as plt
 
